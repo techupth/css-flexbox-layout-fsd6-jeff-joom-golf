@@ -1,1 +1,48 @@
-/* Start coding here */
+body {
+    background-image: linear-gradient(to right, pink, Mediumpurple, deepskyblue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+.box1,
+.box2,
+.box3{
+    background-color: rgb(131, 171, 189);
+    padding: 35px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    opacity: 1;
+
+}
+
+.detail {
+    color: black;
+}
+
+.cat,
+.dog,
+.fish{
+    color: whitesmoke;
+}
+
+h1 {
+    color: black;
+}
+
+.button {
+    background-color: #fcff62;
+}

@@ -1,1 +1,55 @@
-/* Start coding here */
+body {
+    display: flex;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header,footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10%;
+    flex: 1;
+}
+
+
+.contentbox {
+    display: flex;
+    height: 80%;
+    flex-direction: row;
+    background-color: orange;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav, .advertisement {
+    display: flex;
+    height: 100%; 
+    flex-basis: 25%; 
+    justify-content: center;
+    align-items: center;
+    border:  3px solid wheat;
+}
+
+.content {
+    display: flex;
+    height: 100%; 
+    flex-basis: 50%; 
+    justify-content: center;
+    align-items: center;
+    border:  3px solid wheat;
+}
+
+footer {
+    background-color: rgb(236, 236, 148);
+}
+
+header {
+    background-color: rgb(16, 102, 83);
+}
