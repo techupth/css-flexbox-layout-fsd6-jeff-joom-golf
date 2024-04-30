@@ -1,1 +1,56 @@
-/* Start coding here */
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(70deg, rgb(228,105,125), rgb(51,167,212));
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Open+Sans",sans-serif;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+    
+}
+.catbox, .dogbox, .fishbox {
+    height: fit-content;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(195, 195, 195,0.3)
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.detail {
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    text-shadow: 10; 
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
