@@ -1,1 +1,53 @@
-/* Start coding here */
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+.contianer {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.head {
+  display: flex;
+  background-color: rgb(42, 162, 231);
+  height: 10vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.foot {
+  display: flex;
+  background-color: rgb(216, 103, 11);
+  height: 10vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav,
+.content,
+.adver {
+  display: flex;
+  border: 2px solid bisque;
+  background-color: rgb(224, 221, 32);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav {
+  flex-basis: 25%;
+}
+.content {
+  flex-basis: 55%;
+}
+.adver {
+  flex-basis: 25%;
+}
